@@ -72,6 +72,12 @@ export default defineAppConfig({
           }
         }
       }
+    },
+    pageCard: {
+      slots: {
+        description: 'text-sm text-ui-text-dimmed',
+        container: '!p-5 !flex-row !gap-2',
+      }
     }
   }
 });
