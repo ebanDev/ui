@@ -54,14 +54,17 @@ html, body {
   background-color: var(--ui-bg);
   color: var(--ui-text);
   font-family: var(--font-sans, ui-sans-serif);
+  scrollbar-color: var(--color-pastel-green-400) var(--color-pastel-green-100);
 }
+
 code, pre, kbd, samp {
   font-family: var(--font-mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
 }
+
 .rounded, .rounded-lg, .rounded-md, .rounded-sm, .rounded-full, .rounded-xl, .rounded-2xl, .rounded-3xl {
   corner-shape: var(--ui-corner-shape, superellipse(1));
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   font-family: var(--font-serif);
 }
