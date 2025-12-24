@@ -78,6 +78,16 @@ export default defineAppConfig({
         description: 'text-sm text-ui-text-dimmed',
         container: '!p-5 !flex-row !gap-2',
       }
+    },
+    selectMenu: {
+      slots: {
+        content: 'min-w-fit'
+      }
+    },
+    dashboardSidebar: {
+      slots: {
+        root: 'bg-muted',
+      }
     }
   }
 });
